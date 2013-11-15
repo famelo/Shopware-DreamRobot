@@ -1,0 +1,116 @@
+body
+{
+	background-color: #fff;
+	color: #444;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 980px;
+	margin: 0 auto;
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+input,
+textarea
+{
+	border: 1px solid #444;
+}
+
+h3
+{
+	margin:0px;
+}
+
+/* General styles*/
+
+.top-left
+{
+	background-image: URL(./images/top_left_corner.png);
+	width:20px;
+	height: 20px;
+}
+
+.top-right
+{
+	background-image: URL(./images/top_right_corner.png);
+	width:20px;
+	height: 20px;
+}
+
+.top-center
+{
+	background-image: URL(./images/border_top.png);
+	height: 20px;
+}
+
+.bottom-left
+{
+	background-image: URL(./images/bottom_left_corner.png);
+	width:20px;
+	height: 20px;
+}
+
+.bottom-right
+{
+	background-image: URL(./images/bottom_right_corner.png);
+	width:20px;
+	height: 20px;
+}
+
+.bottom-center
+{
+	background-image: URL(./images/border_bottom.png);
+	height: 20px;
+}
+
+.border-left
+{
+	background-image: URL(./images/border_left.png);
+	width:20px
+}
+
+.border-right
+{
+	background-image: URL(./images/border_right.png);
+	width:20px
+}
+
+.middle
+{
+	background-color: #fff;
+}
+
+
+/*Header Styles*/
+
+#change-log h1
+{
+	background-color: #fff;
+	margin: 0px;
+	font-size: 30px;
+	padding: 10px 0px 10px 5px;
+	border: 1px solid #444;
+	border-bottom: 0px;
+	background-image: URL(./images/DR-Logo_250.jpg);
+	background-repeat: no-repeat;
+	background-position: 680px 5px;
+	height:35px;
+}
+
+/*Styles for the login form*/
+#login ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#login
+{
+	max-width: 940px;
+	padding:10px;
+	border: 1px solid #444;
+}
